@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "(gdb) Launch Processor",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/release/aoc",
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "preLaunchTask": "C/C++: clang build processor"
+    },
+    {
+      "name": "(gdb) Debug Processor",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/debug/aoc",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "preLaunchTask": "C/C++: clang debug processor"
+    }
+  ],
+  "version": "2.0.0"
+}
